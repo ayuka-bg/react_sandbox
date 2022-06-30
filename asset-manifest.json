@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-sandbox/static/css/main.3e9e5866.css",
+    "main.js": "/react-sandbox/static/js/main.9e3692ac.js",
+    "static/js/787.60ffb363.chunk.js": "/react-sandbox/static/js/787.60ffb363.chunk.js",
+    "index.html": "/react-sandbox/index.html",
+    "main.3e9e5866.css.map": "/react-sandbox/static/css/main.3e9e5866.css.map",
+    "main.9e3692ac.js.map": "/react-sandbox/static/js/main.9e3692ac.js.map",
+    "787.60ffb363.chunk.js.map": "/react-sandbox/static/js/787.60ffb363.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e9e5866.css",
+    "static/js/main.9e3692ac.js"
+  ]
+}
