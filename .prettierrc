@@ -1,0 +1,14 @@
+{
+  "printWidth": 80,
+  "semi": false,
+  "singleQuote": true,
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true,
+  "atomKeymap.promptV3Features": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "breadcrumbs.enabled": true,
+  "window.zoomLevel": 0,
+  "css.lint.argumentsInColorFunction": "ignore"
+}
+

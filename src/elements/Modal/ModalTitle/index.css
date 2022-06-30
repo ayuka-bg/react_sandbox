@@ -1,0 +1,28 @@
+.modal-title {
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.modal-title__align_left {
+  text-align: left;
+}
+
+.modal-title__align-center {
+  text-align: center;
+}
+
+.modal-title__align-right {
+  text-align: right;
+}
+
+.modal-title__border-none {
+  border-bottom: none;
+}
+
+.modal-title__border-normal {
+  border-bottom: 1px solid gray;
+}
+
+.modal-title__border-bold {
+  border-bottom: 2px solid gray;
+}

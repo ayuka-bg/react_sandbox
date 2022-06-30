@@ -1,0 +1,13 @@
+.modal-content {
+  max-height: 600px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.modal-content__padding-default {
+  padding: 8px 12px;
+}
+
+.modal-content__padding-none {
+  padding: 0;
+}
