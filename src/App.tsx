@@ -17,7 +17,7 @@ function App() {
       <Modal
         isOpen={isOpenModal}
         onClose={() => setIsOpenModal(false)}
-        size="xl"
+        size="sm"
       >
         <ModalTitle border="bold">ModalTitle</ModalTitle>
         <ModalContent padding="default">

@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-.modal_window {
+.window {
   border: 1px solid gray;
   border-radius: 8px;
   width: 500px;
@@ -22,18 +22,18 @@
   background-color: #fff;
 }
 
-.modal_closer {
+.closer {
   position: absolute;
   right: 5px;
   top: 5px;
 }
 
-.modal_closer:hover,
-.modal_closer:active {
+.closer:hover,
+.closer:active {
   color: gray;
 }
 
-.modal_backdrop {
+.backdrop {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -41,14 +41,14 @@
   z-index: 99;
 }
 
-.modal_window__size-md {
+.window[data-size='md'] {
   width: 500px;
 }
 
-.modal_window__size-sm {
+.window[data-size='sm'] {
   width: 400px;
 }
 
-.modal_window__size-xl {
+.window[data-size='xl'] {
   width: 800px;
 }

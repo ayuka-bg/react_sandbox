@@ -1,7 +1,6 @@
 import React, { ReactNode, useEffect } from 'react'
 import { createPortal } from 'react-dom'
-import { block } from '../../etc/utils'
-import './index.css'
+import styles from './index.module.css'
 
 type ModalPropsType = {
   isOpen: boolean
@@ -10,7 +9,7 @@ type ModalPropsType = {
   onClose: () => void
 }
 
-const b = block('modal')
+console.log(styles)
 
 const Modal: React.FC<ModalPropsType> = (props) => {
   const { isOpen, children, onClose, size } = props
@@ -37,10 +36,10 @@ const Modal: React.FC<ModalPropsType> = (props) => {
 
   const ModalElement = (
     <>
-      <div className={b()} aria-modal="true">
-        <div className={b('backdrop')} onClick={onClose} />
-        <div className={b('window', {size})}>
-          <div className={b('closer')} onClick={onClose}>
+      <div className={styles.modal} aria-modal="true">
+        <div className={styles.backdrop} onClick={onClose} />
+        <div className={styles.window} data-size={size}>
+          <div className={styles.closer} onClick={onClose}>
             {'{ X }'}
           </div>
           {children}
