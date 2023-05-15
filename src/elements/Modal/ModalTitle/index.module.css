@@ -1,28 +1,28 @@
-.modal-title {
+.title {
   padding: 8px 12px;
   width: 100%;
 }
 
-.modal-title__align_left {
+.title[data-align='left'] {
   text-align: left;
 }
 
-.modal-title__align-center {
+.title[data-align='center'] {
   text-align: center;
 }
 
-.modal-title__align-right {
+.title[data-align='right'] {
   text-align: right;
 }
 
-.modal-title__border-none {
+.title[data-border='none'] {
   border-bottom: none;
 }
 
-.modal-title__border-normal {
+.title[data-border='normal'] {
   border-bottom: 1px solid gray;
 }
 
-.modal-title__border-bold {
+.title[data-border='bold'] {
   border-bottom: 2px solid gray;
 }
